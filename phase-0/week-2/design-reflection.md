@@ -11,7 +11,7 @@
 
  My site’s primary goal is to attract potential employers and/or customers. My site will feature background information about me (education, work experianece), present my professional and personal interests in the form of a blog and contact infomation, incl. links to social media accounts.
 
-![My Site Map](/imgs/sitemap.png)
+![My Site Map](/phase-0/week-2/imgs/sitemap.png)
 
 **3. What is your target audience's interests and how do you see your site addressing them?**
 
