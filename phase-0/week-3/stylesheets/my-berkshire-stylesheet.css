@@ -1,0 +1,97 @@
+* {
+  background-color: #FFFFFF;
+  color: #000080;
+}
+
+a:link {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+.description {
+  font-size: x-small;
+}
+
+header {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+header h3 span {
+  font-size: 200%;
+}
+
+hr {
+  border: 1;
+  width: 100%; 
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.geico {
+  font-size: x-small;
+  text-align: center;
+}
+
+.left {
+  float: left;
+  padding: 0px 50px 0px 120px;
+}
+
+.right {
+  float: right;
+  padding: 0px 150px 0px 50px;
+}
+
+li {
+  margin-bottom: 2em;
+}
+
+p {
+  font-size: small;
+}
+
+p span {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+/* 
+
+1. What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+2. What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+We used 'float' property to position the list to the left and to the right. 
+We also used 'text-align' property to center the text and a block to center the image.
+
+3. What CSS did you use to modify the element style (like size, color, etc.)
+
+We used color, font-size, font-weight to modify the elements' style.
+
+4. Did you modify the HTML to include classes or ids? If so, which did you choose and why? 
+If you didn't, how would you know which one to add to your HTML?
+
+Yes, we modified the HTML and incleuded classes. IDs and classes have no difference in functionality. 
+The range of elements in our document is very limited; therefore, there was no need to point out to the uniqueness of the elements and overload it with IDs.
+
+5. When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why? 
+
+Maybe, my lack of experience doesn't allow me to judge objectively but the original code seemed rather outdated.
+In my opinion, the use of semantic elements in the original code is excessive and there are many unneccessary structures. 
+The code was formatted in HTML, wasn't it?
+
+*/
