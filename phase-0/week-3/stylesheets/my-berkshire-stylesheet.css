@@ -73,6 +73,9 @@ ul {
 
 1. What is important to know when linking an external file (like a stylesheet) to an HTML file?
 
+One should include a link into the head. The link should comprise of rel, href, type and media (optional).
+It is important to ensure that the path leads to the CSS document.
+
 2. What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
 
 We used 'float' property to position the list to the left and to the right. 
