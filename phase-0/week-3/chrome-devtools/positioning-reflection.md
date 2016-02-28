@@ -28,12 +28,12 @@ A border is like a frame of the element. A padding is the space between the cont
 
 I found the challenge to be illustrative and practical. It helped to deeper understand the differences between properties and their interconnectedness.
 
-![Task 1] (phase-0/week-3/chrome-devtools/imgs/devchrome1.png)
-![Task 2] (phase-0/week-3/chrome-devtools/imgs/devchrome2.png)
-![Task 3] (phase-0/week-3/chrome-devtools/imgs/devchrome3.png)
-![Task 4] (phase-0/week-3/chrome-devtools/imgs/devchrome4.png)
-![Task 5] (phase-0/week-3/chrome-devtools/imgs/devchrome5.png)
-![Task 6] (phase-0/week-3/chrome-devtools/imgs/devchrome6.png)
-![Task 7] (phase-0/week-3/chrome-devtools/imgs/devchrome7.png)
-![Task 8] (phase-0/week-3/chrome-devtools/imgs/devchrome8.png)
-![Task 9] (phase-0/week-3/chrome-devtools/imgs/devchrome9.png)
+![Task 1](/chrome-devtools/imgs/devchrome1.png)
+![Task 2](/chrome-devtools/imgs/devchrome2.png)
+![Task 3](/chrome-devtools/imgs/devchrome3.png)
+![Task 4](/chrome-devtools/imgs/devchrome4.png)
+![Task 5](/chrome-devtools/imgs/devchrome5.png)
+![Task 6](/chrome-devtools/imgs/devchrome6.png)
+![Task 7](/chrome-devtools/imgs/devchrome7.png)
+![Task 8](/chrome-devtools/imgs/devchrome8.png)
+![Task 9](/chrome-devtools/imgs/devchrome9.png)
