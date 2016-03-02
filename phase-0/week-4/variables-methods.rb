@@ -37,7 +37,10 @@ If variables are nouns Ruby, methods are verbs in Ruby.
    rspec name.rb
 
 6. What was confusing about this material? What made sense?
-=end
 
-[4.3.1](https://github.com/ftBessmann/phase-0/blob/master/phase-0/week-4/address/my_solution.rb)
-[4.3.2](https://github.com/ftBessmann/phase-0/blob/master/phase-0/week-4/math/my_solution.rb)
+This material was helpful a to refresh old knowledge.
+Though, I hesitate if I had to explicitly assign local variables to the method parameters in the 4.3.1.
+
+4.3.1 https://github.com/ftBessmann/phase-0/blob/master/phase-0/week-4/address/my_solution.rb)
+4.3.2 https://github.com/ftBessmann/phase-0/blob/master/phase-0/week-4/math/my_solution.rb)
+=end
