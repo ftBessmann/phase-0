@@ -1,6 +1,6 @@
 # Numbers to Commas Solo Challenge
 
-# I spent [] hours on this challenge.
+# I spent [2] hours on this challenge.
 
 # Complete each step below according to the challenge directions and
 # include it in this file. Also make sure everything that isn't code
@@ -102,5 +102,4 @@ I used times to iterate throught the data structure.
 
 5. Do you feel your refactored solution is more readable than your initial solution? Why?
 Yes, it is easier to comprehend the iteration of every third element from the beginning than every fourth from the end.
-	
 =end
