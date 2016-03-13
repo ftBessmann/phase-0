@@ -5,7 +5,7 @@ def pad(array, min_size, value = nil) #non-destructive
   if array.size >= min_size
     my_array 
   else
-    (min_size - array.size).times { |y| my_array.push(value) }
+    (min_size - array.size).times { my_array.push(value) }
     my_array
   end
   return my_array
