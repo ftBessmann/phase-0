@@ -81,7 +81,8 @@ Instance variables add flexibility to the code.
 None.
 
 4. What concepts about classes were you able to solidify in this challenge?
-To the methods defined ih the class, one should create an instance of a class.
-Instance variables can be used in all the methods of a class.
+A class in a blueprint of an object.
+To access the methods defined ih the class, one should create an instance of a class.
+Instance variables can be used in all the methods of a class. They characterize all objects of a class unless specified differently.
 Initialize method is used to set parameters valid for all the objects of a class.
 =end
