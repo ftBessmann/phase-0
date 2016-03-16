@@ -6,9 +6,14 @@
 
 # Pseudocode
 
-# Input:
-# Output:
-# Steps:
+# Input: a string with my name
+# Output: a string with a greeting and my name
+# Steps: 
+# Set a reader for variable name
+# Initialize the class NameData with variable name and assign it to my name
+# Set a reader for variable student
+# Initialize the class Greetings with variable student and assign it to an instance of class NameData
+# Define hello method with a salutation that is addressed to my name
 
 class NameData  
   attr_reader :name
