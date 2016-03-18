@@ -83,9 +83,18 @@ p new_startup_names
 Reflection
 
 1. What are some general rules you can apply to nested arrays?
-2. What are some ways you can iterate over nested arrays?
-3. Did you find any good new methods to implement or did you re-use one you were already familiar with?
-What was it and why did you decide that was a good option?	
+To access elements in nested arrays one should, at first, access the index of the outer array and, then, 
+of the inner array so many times as the number of inner arrays. For example, 
+nested_array = [1, ["inner", "array"], 2, 3]
+nested_array[1][0] = "inner"
 
-	
+2. What are some ways you can iterate over nested arrays?
+To iterate through nested arrays, one can use general methods for arrays. The output of iteration will differ
+for p and puts.
+p outputs every element, while puts outputs invidual elements and arrays in arrays.
+
+3. Did you find any good new methods to implement or did you re-use one you were already familiar with?
+What was it and why did you decide that was a good option?
+We re-used already familiar method map because it creates a new array containing the values returned by the block.
+
 =end
