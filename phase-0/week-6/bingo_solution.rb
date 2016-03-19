@@ -28,7 +28,10 @@ class BingoBoard
   def initialize(board)
     @bingo_board = board
   end
-
+  
+  def generate
+    @bingo_board.
+  end 
 
 end
 
