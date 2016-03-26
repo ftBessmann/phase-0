@@ -1,8 +1,6 @@
 // Manipulating JavaScript Objects
 
-// I worked on this challenge: [by myself, with: ]
-
-// There is a section below where you will write your code.
+// I worked on this challenge by myself.
 
 // DO NOT ALTER THIS OBJECT BY ADDING ANYTHING WITHIN THE CURLY BRACES!
 var terah = {
@@ -39,18 +37,16 @@ terah.children.colton = {
 adam.children = terah.children;
 
 // __________________________________________
-// Reflection: Use the reflection guidelinesWhat tests did you have trouble passing? 
-// What did you do to make it pass? Why did that work?
+// Reflection: Use the reflection guidelines
+// What tests did you have trouble passing? What did you do to make it pass? Why did that work?
+// At first, I was confused with the 3rd test. Then, I changed the way I addressed the property
+// spouse from [] to . and it worked.
 // How difficult was it to add and delete properties outside of the object itself?
+// It was quite easy to add and delete properties outside of the object itself.
 // What did you learn about manipulating objects in this challenge?
+// I learnt how to create objects, add and delete their properties as well as how establish connections
+// between objects, and create objects in objects.
 //
-//
-//
-//
-//
-//
-
-
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
 function assert(test, message, test_number) {
