@@ -25,8 +25,24 @@ After they hit return, have the program respond with "Hey! That's my favorite to
 // Functions
 
 // Complete the `minimum` exercise.
-
-
-
+/*
+var min = function(num1, num2){
+  if (num1 < num2)
+  	return num1;
+  else
+  	return num2
+}
+console.log(min(0, 3));
+*/
 // Data Structures: Objects and Arrays
 // Create an object called "me" that stores your name, age, 3 favorite foods, and a quirk below.
+var me = {
+	name: "Mila",
+	age: 28,
+	foods: ["Seafood", "Avocado", "Salad"],
+	quirk: "sporty nerd"
+};
+console.log(me.name);
+console.log(me.age);
+console.log(me.foods);
+console.log(me.quirk);
