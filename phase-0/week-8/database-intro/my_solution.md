@@ -13,7 +13,7 @@
 
 **Release 7**
 
-![Outfits Database Schema Design](/database-intro/outfits.png)
+![Outfits Database Schema Design](/outfits.png)
 
 **Reflection**
 
