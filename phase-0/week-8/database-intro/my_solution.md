@@ -1,15 +1,15 @@
 **Release 6**
 
-1. SELECT * FROM States; 1
-2. SELECT * FROM Regions; 2
-3. SELECT State_name, Population FROM States; 3
-4. SELECT State_name, Population FROM States ORDER BY Population DESC; 4
-5. SELECT State_name FROM States WHERE Region_id=7; 5
-6. SELECT State_name, Population_density FROM States WHERE Population_density>50 ORDER BY Population_density ASC; 6
-7. SELECT State_name FROM States WHERE Population BETWEEN 1000000 AND 1500000; 7
-8. SELECT State_name, Region_id FROM States ORDER BY Region_id ASC; 8
-9. SELECT Region_name FROM Regions WHERE Region_name LIKE "%central%"; 9
-10. SELECT Regions.region_name, States.state_name FROM Regions RIGHT JOIN States ON Regions.id=States.id ORDER BY Regions.region_name ASC; 10
+1. SELECT * FROM States;
+2. SELECT * FROM Regions;
+3. SELECT State_name, Population FROM States;
+4. SELECT State_name, Population FROM States ORDER BY Population DESC;
+5. SELECT State_name FROM States WHERE Region_id=7;
+6. SELECT State_name, Population_density FROM States WHERE Population_density>50 ORDER BY Population_density ASC;
+7. SELECT State_name FROM States WHERE Population BETWEEN 1000000 AND 1500000;
+8. SELECT State_name, Region_id FROM States ORDER BY Region_id ASC;
+9. SELECT Region_name FROM Regions WHERE Region_name LIKE "%central%";
+10. SELECT Regions.region_name, States.state_name FROM Regions RIGHT JOIN States ON Regions.id=States.id ORDER BY Regions.region_name ASC;
 
 **Release 7**
 
@@ -40,10 +40,10 @@ FROM *table_name;*
 
 Optional keywords and clauses of SELECT include:
 
-* The FROM clause, which indicates the table(s) to retrieve data from. 1
-* The WHERE clause includes a comparison predicate, which restricts the rows returned by the query. 2
-* The GROUP BY clause projects rows having common values into a smaller set of rows. 3
-* The HAVING clause includes a predicate used to filter rows resulting from the GROUP BY clause. 4
-* The ORDER BY clause identifies which column(s) to use to sort the resulting data, and in which direction to sort them (ascending or descending). 5
-* The DISTINCT keyword eliminates duplicate data. 6
+* The FROM clause, which indicates the table(s) to retrieve data from.
+* The WHERE clause includes a comparison predicate, which restricts the rows returned by the query.
+* The GROUP BY clause projects rows having common values into a smaller set of rows.
+* The HAVING clause includes a predicate used to filter rows resulting from the GROUP BY clause.
+* The ORDER BY clause identifies which column(s) to use to sort the resulting data, and in which direction to sort them (ascending or descending).
+* The DISTINCT keyword eliminates duplicate data.
 
