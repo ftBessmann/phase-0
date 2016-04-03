@@ -1,7 +1,7 @@
 // Tally Votes in JavaScript Pairing Challenge.
 
-// I worked on this challenge with:
-// This challenge took me [#] hours.
+// I worked on this challenge with David Ramirez.
+// This challenge took me [1.5] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
@@ -68,11 +68,29 @@ var officers = {
 // __________________________________________
 // Initial Solution
 
+for (var name in votes)
+  if(votes.hasOwnProperty(name)){
+    var poll = votes[name];
+    for (var position in poll){
+      if (voteCount[position].hasOwnProperty([poll[position]])){
+        voteCount[position][poll[position]] += 1;
+      }
+      else { voteCount[position][poll[position]] = 1
+            };
+    }
+  }
+for (var key in voteCount){
+  var tallies = voteCount[key];
+  var winner = 0;
+    for (var names in tallies) {
+      if (tallies[names] > winner){
+      winner = tallies[names];
+      officers[key] = names;
+    }
+  }
+}
 
-
-
-
-
+console.log(voteCount);
 
 // __________________________________________
 // Refactored Solution
@@ -83,14 +101,16 @@ var officers = {
 
 
 // __________________________________________
-// Reflection
+/* Reflection
+
+1. What did you learn about iterating over nested objects in JavaScript?
+
+2. Were you able to find useful methods to help you with this?
+
+3. What concepts were solidified in the process of working through this challenge?
 
 
-
-
-
-
-// __________________________________________
+*/ __________________________________________
 // Test Code:  Do not alter code below this line.
 
 
