@@ -1,9 +1,11 @@
 # I worked on this challenge by myself.
-# This challenge took me [#] hours.
+# This challenge took me [1] hours.
 
 # Pseudocode
-
-
+# IF the input number is less than two
+# RETURN the input number
+# ELSE
+# RETURN the sum of the input number less one and input number less two
 
 # Initial Solution
 
