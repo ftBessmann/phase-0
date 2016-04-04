@@ -68,6 +68,33 @@ var officers = {
 // __________________________________________
 // Initial Solution
 
+for(student in votes){
+  for(position in voteCount){
+    voteCount[position][student]=0
+  };
+};
+ 
+for(student in votes){
+  for(position in votes[student]){
+    voteCount[position][votes[student][position]]++
+  };
+};
+ 
+for(position in officers){
+  var highest_vote = 0;
+  var winner = "";
+  for(student in voteCount[position]){
+    if (voteCount[position][student]>highest_vote){
+      highest_vote=voteCount[position][student];
+      winner=student;
+    };
+  };
+  officers[position]=winner;
+};
+
+// __________________________________________
+// Refactored Solution
+
 for (var name in votes)
   if(votes.hasOwnProperty(name)){
     var poll = votes[name];
@@ -93,22 +120,22 @@ for (var key in voteCount){
 console.log(voteCount);
 
 // __________________________________________
-// Refactored Solution
-
-
-
-
-
-
-// __________________________________________
 /* Reflection
 
 1. What did you learn about iterating over nested objects in JavaScript?
 
+There two main ways to add function to objects.
+Using the object constructor will assign a copy of that function to every new instance of your object. 
+Using prototyping will result in one function being shared across all instances.
+It can be done by means of both dot notation and bracket notation. 
+
 2. Were you able to find useful methods to help you with this?
+
+Yes, we used hasOwnProperty method and for-in loop.
 
 3. What concepts were solidified in the process of working through this challenge?
 
+Accessing and modifying properties of nested objects by means of looping.
 
 */ __________________________________________
 // Test Code:  Do not alter code below this line.
